@@ -1,5 +1,5 @@
 {% set name = "rang" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/agauniyal/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0eaf6ac687eb359d795bc9fdf0f79887778b7e933a8a3b317db4ba76be0a39d1
+  sha256: 8b42d9c33a6529a6c283a4f4c73c26326561ccc67fbb3e6a3225edd688b39973
 
 build:
   number: 0
